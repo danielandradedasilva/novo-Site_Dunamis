@@ -1,0 +1,1550 @@
+/*CSS DA PAGE HOME*/
+
+
+/*classe .conteudo para todos os tamahos*/
+
+.conteudo {
+    background: #d2d2d2 url(../img/fundo-caixa.png);
+}
+
+
+/*mobile*/
+
+section .titulo {
+    margin-top: 40px;
+    font-size: 1.8em;
+}
+
+.subtitulo {
+    margin-top: 40px !important;
+    font-size: 1.2em !important;
+}
+
+section span .pnegrito {
+    font-size: 16px !important;
+    font-style: italic;
+    font-weight: 600;
+}
+
+section span .dunamis {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(180, 0, 0);
+}
+
+section span .graf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+}
+
+.titulo-painel {
+    font-size: 2em !important;
+    width: 250px;
+    margin: 50px auto !important;
+    display: block;
+    color: rgb(180, 0, 0);
+}
+
+.conteudo-home1 .card {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 250px !important;
+    height: 290px !important;
+    border-radius: 5px;
+}
+
+.card .card-reveal {
+    background-color: #d3d3d3 !important;
+}
+
+.card .card-reveal span i {
+    color: #000;
+    margin-top: -30px;
+}
+
+.card .card-reveal span {
+    color: rgb(180, 0, 0) !important;
+    margin-top: 40px !important;
+    font-size: 1.4em;
+}
+
+.card .card-reveal p {
+    font-size: 16px !important;
+    text-align: center;
+}
+
+.slider {
+    margin-top: 40px;
+}
+
+.slider .caption h5 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.imagensfooter .tel {
+    height: 75px;
+    width: 75px !important;
+    margin-top: 3px;
+    margin-left: 30px !important;
+    float: left;
+}
+
+.imagensfooter .num1 {
+    width: 200px;
+    font-size: 19px !important;
+    margin-left: 70px;
+    margin-top: -65px;
+    float: left;
+}
+
+.imagensfooter .num2 {
+    width: 200px;
+    font-size: 19px !important;
+    margin-left: 70px;
+    margin-top: -35px;
+    float: left;
+}
+
+.imagensfooter .email {
+    margin-top: 85px !important;
+    float: left;
+    margin-left: 80px;
+}
+
+.imagensfooter .contatoemail {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: -16px;
+    float: left;
+}
+
+.frasefinal {
+    color: rgb(180, 0, 0);
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 15px;
+    padding: 3px;
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+}
+
+.container .contact {
+    font-size: 1.3em;
+}
+
+
+/*mobile 375*/
+
+@media screen and (min-width: 375px) {
+    section .titulo {
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.2em !important;
+    }
+    section span .pnegrito {
+        font-size: 16px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -30px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+    .card .card-reveal p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .imagensfooter .tel {
+        height: 75px;
+        width: 75px !important;
+        margin-top: 3px;
+        margin-left: 50px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 90px;
+        margin-top: -65px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 90px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 85px !important;
+        float: left;
+        margin-left: 95px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 0;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.3em;
+    }
+}
+
+
+/*mobile 425*/
+
+@media screen and (min-width: 425px) {
+    section .titulo {
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.2em !important;
+    }
+    section span .pnegrito {
+        font-size: 16px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -30px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+    .card .card-reveal p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .imagensfooter .tel {
+        height: 75px;
+        width: 75px !important;
+        margin-top: 3px;
+        margin-left: 75px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 110px;
+        margin-top: -65px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 110px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 85px !important;
+        float: left;
+        margin-left: 110px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 12px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.5em;
+    }
+}
+
+
+/*tablet 601 PX*/
+
+@media screen and (min-width: 601px) {
+    section .titulo {
+        margin-top: 40px;
+        font-size: 2em;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.2em !important;
+    }
+    section span .pnegrito {
+        font-size: 16px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 1.9em;
+        width: 250px;
+        margin: 50px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+        margin-left: -4px;
+        width: 165px !important;
+        height: 245px !important;
+        border-radius: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -40px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+    .card .card-reveal p {
+        font-size: 13px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 3px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 105px !important;
+        float: left;
+        margin-left: 75px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -18px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.6em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.6em;
+    }
+}
+
+
+/*tablet 730 PX*/
+
+@media screen and (min-width: 730px) {
+    section .titulo {
+        margin-top: 50px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.2em !important;
+    }
+    section span .pnegrito {
+        font-size: 16px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+        margin-left: -4px;
+        width: 190px !important;
+        height: 250px !important;
+        border-radius: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.3em;
+    }
+    .card .card-reveal p {
+        font-size: 14px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 3px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 105px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -15px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.7em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.7em;
+    }
+}
+
+
+/*tablet 768 PX*/
+
+@media screen and (min-width: 768px) {
+    section .titulo {
+        margin-top: 50px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .pnegrito {
+        font-size: 23px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+        margin-left: 10px;
+        width: 185px !important;
+        height: 250px !important;
+        border-radius: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 22px;
+        font-size: 1.4em;
+    }
+    .card .card-reveal p {
+        font-size: 14px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 135px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -10px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.8em;
+    }
+}
+
+
+/*tablet 810 PX*/
+
+@media screen and (min-width: 810px) {
+    section .titulo {
+        margin-top: 50px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .pnegrito {
+        font-size: 23px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 1.7em;
+        width: 250px;
+        margin: 50px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+        margin-left: 10px;
+        width: 215px !important;
+        height: 280px !important;
+        border-radius: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 17px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 135px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -10px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 1.8em;
+    }
+}
+
+
+/*tablet 910 PX*/
+
+@media screen and (min-width: 910px) {
+    section .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 1.7em;
+        width: 250px;
+        margin: 50px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin-top: 8px;
+        margin-left: 10px;
+        width: 225px !important;
+        height: 280px !important;
+        border-radius: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    .card .card-reveal p {
+        font-size: 17px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 195px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 240px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 240px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 100px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 10px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        margin-top: 15px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2em;
+    }
+}
+
+
+/*PC 1017*/
+
+@media screen and (min-width: 1017px) {
+    .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 2em;
+        width: 250px;
+        margin: 70px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 8px 18px;
+        width: 210px !important;
+        height: 290px !important;
+        margin-left: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 95px;
+        width: 95px !important;
+        margin-top: 3px;
+        margin-left: 60px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 21px !important;
+        margin-left: 130px;
+        margin-top: -80px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 21px !important;
+        margin-left: 130px;
+        margin-top: -45px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 20px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 55px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2.2em;
+    }
+}
+
+
+/*PC 1100*/
+
+@media screen and (min-width: 1100px) {
+    .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 2em;
+        width: 250px;
+        margin: 70px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 8px 18px;
+        width: 245px !important;
+        height: 295px !important;
+        margin-left: 5px;
+    }
+    .card .card-reveal {
+        background-color: #d3d3d3 !important;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 55px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2.3em;
+    }
+}
+
+
+/*PC 1240*/
+
+@media screen and (min-width: 1240px) {
+    .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.5em !important;
+    }
+    section span .pnegrito {
+        font-size: 18px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 2em;
+        width: 250px;
+        margin: 70px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 8px 18px;
+        width: 255px !important;
+        height: 295px !important;
+        margin-left: 5px;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 65px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2.3em;
+    }
+}
+
+
+/*PC 1340*/
+
+@media screen and (min-width: 1340px) {
+    .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.6em !important;
+    }
+    section span .pnegrito {
+        font-size: 20px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 2em;
+        width: 250px;
+        margin: 70px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 8px 18px;
+        width: 285px !important;
+        height: 305px !important;
+        margin-left: 5px;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 65px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2.3em;
+    }
+}
+
+
+/*PC 1440*/
+
+@media screen and (min-width: 1440px) {
+    .titulo {
+        margin-top: 50px;
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    .subtitulo {
+        margin-top: 40px !important;
+        font-size: 1.6em !important;
+    }
+    section span .pnegrito {
+        font-size: 20px !important;
+        font-style: italic;
+        font-weight: 600;
+    }
+    section span .dunamis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: rgb(180, 0, 0);
+    }
+    section span .graf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        font-style: italic;
+        color: #000;
+    }
+    .titulo-painel {
+        font-size: 2em;
+        width: 250px;
+        margin: 70px auto;
+        display: block;
+        color: rgb(180, 0, 0);
+    }
+    .conteudo-home1 .card {
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 8px 18px;
+        width: 300px !important;
+        height: 290px !important;
+        margin-left: 5px;
+    }
+    .card .card-reveal span i {
+        color: #000;
+        margin-top: -50px;
+    }
+    .card .card-reveal span {
+        color: rgb(180, 0, 0) !important;
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+    .card .card-reveal p {
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .slider {
+        margin-top: 40px;
+    }
+    div .slides img {
+        max-width: 100%!important;
+    }
+    .slider .caption h5 {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 110px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 22px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 22px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 35px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+    .frasefinal {
+        color: rgb(180, 0, 0);
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 75px;
+        padding: 3px;
+        border-top: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+    }
+    .container .contact {
+        font-size: 2.3em;
+    }
+}

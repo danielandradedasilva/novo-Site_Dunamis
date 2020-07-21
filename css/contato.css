@@ -1,0 +1,19 @@
+/*CSS DA PAGE HOME*/
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.8;
+    color: rgb(255, 8, 0);
+}
+
+.cardmensagem {
+    margin-top: 15px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.formulario {
+    margin-top: 15px;
+    height: 500px;
+    border: 1px solid red;
+}

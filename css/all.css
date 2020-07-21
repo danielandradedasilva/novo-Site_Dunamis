@@ -1,0 +1,871 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    background: #f1f1f1;
+    flex: 1 0 auto;
+}
+
+
+/*mobile*/
+
+.menu {
+    background: rgb(215, 214, 220);
+    height: 70px !important;
+}
+
+.side-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.side-nav ul li {
+    margin-top: 100px !important;
+}
+
+.side-nav a {
+    color: #fff !important;
+    font-size: 1.3em !important;
+    margin-top: 10px;
+}
+
+.parallax-container {
+    margin-top: 14px !important;
+    height: 350px !important;
+    max-width: 100%;
+}
+
+.brand-logo img {
+    margin-top: -40px !important;
+    width: 220px !important;
+    height: 160px !important;
+    display: block;
+}
+
+a .material-icons {
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    color: rgb(180, 0, 0);
+}
+
+.imagensfooter .tel {
+    height: 75px;
+    width: 75px !important;
+    margin-top: 3px;
+    margin-left: 30px !important;
+    float: left;
+}
+
+.imagensfooter .num1 {
+    width: 200px;
+    font-size: 19px !important;
+    margin-left: 70px;
+    margin-top: -65px;
+    float: left;
+}
+
+.imagensfooter .num2 {
+    width: 200px;
+    font-size: 19px !important;
+    margin-left: 70px;
+    margin-top: -35px;
+    float: left;
+}
+
+.imagensfooter .email {
+    margin-top: 85px !important;
+    float: left;
+    margin-left: 80px;
+}
+
+.imagensfooter .contatoemail {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: -16px;
+    float: left;
+}
+
+
+/*mobile 375*/
+
+@media screen and (min-width: 375px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 14px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .imagensfooter .tel {
+        height: 75px;
+        width: 75px !important;
+        margin-top: 3px;
+        margin-left: 50px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 90px;
+        margin-top: -65px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 90px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 85px !important;
+        float: left;
+        margin-left: 95px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 0;
+        float: left;
+    }
+}
+
+
+/*mobile 425*/
+
+@media screen and (min-width: 425px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 14px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .imagensfooter .tel {
+        height: 75px;
+        width: 75px !important;
+        margin-top: 3px;
+        margin-left: 75px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 110px;
+        margin-top: -65px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 110px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 85px !important;
+        float: left;
+        margin-left: 110px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 12px;
+        float: left;
+    }
+}
+
+
+/*tablet 601 PX*/
+
+@media screen and (min-width: 601px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -60px;
+        width: 300px;
+        height: 220px;
+        display: block;
+    }
+    a .material-icons {
+        margin-top: 13px !important;
+        margin-left: 10px !important;
+        color: rgb(180, 0, 0);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 3px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 105px !important;
+        float: left;
+        margin-left: 75px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -18px;
+        float: left;
+    }
+}
+
+
+/*tablet 730 PX*/
+
+@media screen and (min-width: 730px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -60px;
+        width: 300px;
+        height: 220px;
+        display: block;
+    }
+    a .material-icons {
+        margin-top: 13px !important;
+        margin-left: 10px !important;
+        color: rgb(180, 0, 0);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 3px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 19px !important;
+        margin-left: 170px;
+        margin-top: -35px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 105px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -15px;
+        float: left;
+    }
+}
+
+
+/*tablet 768 PX*/
+
+@media screen and (min-width: 768px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -60px;
+        width: 300px;
+        height: 220px;
+        display: block;
+    }
+    a .material-icons {
+        margin-top: 13px !important;
+        margin-left: 10px !important;
+        color: rgb(180, 0, 0);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 135px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -10px;
+        float: left;
+    }
+}
+
+
+/*tablet 810 PX*/
+
+@media screen and (min-width: 810px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -60px;
+        width: 300px;
+        height: 220px;
+        display: block;
+    }
+    a .material-icons {
+        margin-top: 13px !important;
+        margin-left: 10px !important;
+        color: rgb(180, 0, 0);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 135px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 190px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 80px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -10px;
+        float: left;
+    }
+}
+
+
+/*tablet 910 PX*/
+
+@media screen and (min-width: 910px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 350px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -60px;
+        width: 300px;
+        height: 220px;
+        display: block;
+    }
+    a .material-icons {
+        margin-top: 13px !important;
+        margin-left: 10px !important;
+        color: rgb(180, 0, 0);
+    }
+    .imagensfooter .tel {
+        height: 85px;
+        width: 85px !important;
+        margin-top: 5px;
+        margin-left: 195px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 240px;
+        margin-top: -75px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 240px;
+        margin-top: -40px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 95px !important;
+        float: left;
+        margin-left: 100px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 10px;
+        float: left;
+    }
+}
+
+
+/*PC 1017*/
+
+@media screen and (min-width: 1017px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 450px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -42px !important;
+        width: 255px;
+        height: 170px;
+        display: block;
+    }
+    .desktop {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .desktop li {
+        height: 40px;
+    }
+    .desktop li a {
+        font-size: 1.3em;
+        color: rgb(180, 0, 0);
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .desktop li a:hover {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+    }
+    body.home .desktop a#home,
+    body.produtos .desktop a#produtos,
+    body.contato .desktop a#contato,
+    body.quemsomos .desktop a#quemsomos {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+        cursor: pointer;
+    }
+    .imagensfooter .tel {
+        height: 95px;
+        width: 95px !important;
+        margin-top: 3px;
+        margin-left: 60px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 21px !important;
+        margin-left: 130px;
+        margin-top: -80px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 21px !important;
+        margin-left: 130px;
+        margin-top: -45px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 20px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+}
+
+
+/*PC 1100*/
+
+@media screen and (min-width: 1100px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 450px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -42px !important;
+        width: 255px;
+        height: 170px;
+        display: block;
+    }
+    .desktop {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .desktop li {
+        height: 40px;
+    }
+    .desktop li a {
+        font-size: 1.3em;
+        color: rgb(180, 0, 0);
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .desktop li a:hover {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+    }
+    body.home .desktop a#home,
+    body.produtos .desktop a#produtos,
+    body.contato .desktop a#contato,
+    body.quemsomos .desktop a#quemsomos {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+        cursor: pointer;
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+}
+
+
+/*PC 1240*/
+
+@media screen and (min-width: 1240px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 450px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -42px !important;
+        width: 255px;
+        height: 170px;
+        display: block;
+    }
+    .desktop {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .desktop li {
+        height: 40px;
+    }
+    .desktop li a {
+        font-size: 1.3em;
+        color: rgb(180, 0, 0);
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .desktop li a:hover {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+    }
+    body.home .desktop a#home,
+    body.produtos .desktop a#produtos,
+    body.contato .desktop a#contato,
+    body.quemsomos .desktop a#quemsomos {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+        cursor: pointer;
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+}
+
+
+/*PC 1340*/
+
+@media screen and (min-width: 1340px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 450px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -42px !important;
+        width: 255px;
+        height: 170px;
+        display: block;
+    }
+    .desktop {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .desktop li {
+        height: 40px;
+    }
+    .desktop li a {
+        font-size: 1.3em;
+        color: rgb(180, 0, 0);
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .desktop li a:hover {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+    }
+    body.home .desktop a#home,
+    body.produtos .desktop a#produtos,
+    body.contato .desktop a#contato,
+    body.quemsomos .desktop a#quemsomos {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+        cursor: pointer;
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 130px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 20px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 29px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 19px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+}
+
+
+/*PC 1440*/
+
+@media screen and (min-width: 1440px) {
+    .menu {
+        background: rgb(215, 214, 220);
+        height: 70px !important;
+    }
+    .parallax-container {
+        margin-top: 5px !important;
+        height: 450px !important;
+        max-width: 100%;
+    }
+    .brand-logo img {
+        margin-top: -42px !important;
+        width: 255px;
+        height: 170px;
+        display: block;
+    }
+    .desktop {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .desktop li {
+        height: 40px;
+    }
+    .desktop li a {
+        font-size: 1.3em;
+        color: rgb(180, 0, 0);
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .desktop li a:hover {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+    }
+    body.home .desktop a#home,
+    body.produtos .desktop a#produtos,
+    body.contato .desktop a#contato,
+    body.quemsomos .desktop a#quemsomos {
+        color: rgb(180, 0, 0);
+        border-bottom: 2px solid rgb(180, 0, 0);
+        cursor: pointer;
+    }
+    .imagensfooter .tel {
+        height: 110px;
+        width: 110px !important;
+        margin-top: 5px;
+        margin-left: 110px !important;
+        float: left;
+    }
+    .imagensfooter .num1 {
+        width: 200px;
+        font-size: 22px !important;
+        margin-left: 200px;
+        margin-top: -90px;
+        float: left;
+    }
+    .imagensfooter .num2 {
+        width: 200px;
+        font-size: 22px !important;
+        margin-left: 200px;
+        margin-top: -50px;
+        float: left;
+    }
+    .imagensfooter .email {
+        margin-top: 35px !important;
+        float: left;
+        margin-left: 85px;
+    }
+    .imagensfooter .contatoemail {
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: -7px;
+        float: left;
+    }
+}

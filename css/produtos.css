@@ -1,0 +1,802 @@
+/*CSS DA PAGE PRODUTOS*/
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.8em;
+    color: rgb(255, 8, 0);
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.especificacoes {
+    margin-top: 5px;
+}
+
+.caixafrase {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 50px !important;
+    margin-top: 20px;
+    height: 250px !important;
+    background-color: rgb(30, 131, 179);
+    border-color: rgb(0, 136, 255) !important;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+}
+
+.frasecarrosel {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.carousel {
+    margin-top: -15px;
+}
+
+img.materialboxed {
+    width: 220px;
+    height: 200px;
+    margin-top: -10px !important;
+}
+
+.butonsnextprev {
+    margin-top: -100px !important;
+    opacity: 0;
+}
+
+.menuprodutos {
+    font-size: 18px;
+}
+
+
+/*mobile 375*/
+
+@media screen and (min-width: 375px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 1.8em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 17px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 20px;
+        height: 240px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .carousel {
+        margin-top: -15px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -100px !important;
+        opacity: 0;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*mobile 425*/
+
+@media screen and (min-width: 425px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 17px;
+        color: white;
+        padding: 55px !important;
+        margin-top: 20px;
+        height: 240px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 17px;
+        margin-left: 38px;
+    }
+    .carousel {
+        margin-top: -15px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -100px !important;
+        opacity: 0;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*tablet 601 PX*/
+
+@media screen and (min-width: 601px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.4em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 20px;
+        height: 340px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 17px;
+        margin-left: 110px;
+    }
+    .carousel {
+        margin-top: -15px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -20px !important;
+        opacity: 100;
+    }
+    .anterior {
+        float: left;
+        margin-left: 180px;
+        line-height: 50px;
+    }
+    .proximo {
+        float: right;
+        margin-right: 170px;
+        line-height: 50px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*tablet 730 PX*/
+
+@media screen and (min-width: 730px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.3em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 17px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 20px;
+        height: 305px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 17px;
+        margin-left: 170px;
+    }
+    .carousel {
+        margin-top: -15px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -20px !important;
+        opacity: 100;
+    }
+    .anterior {
+        float: left;
+        margin-left: 225px;
+        line-height: 50px;
+    }
+    .proximo {
+        float: right;
+        margin-right: 200px;
+        line-height: 50px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*tablet 768 PX*/
+
+@media screen and (min-width: 768px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.3em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 20px;
+        height: 300px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 17px;
+        margin-left: 200px !important;
+    }
+    .carousel {
+        margin-top: -25px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+        opacity: 100;
+    }
+    .anterior {
+        float: left;
+        margin-left: 225px;
+        line-height: 50px;
+    }
+    .proximo {
+        float: right;
+        margin-right: 200px;
+        line-height: 50px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*tablet 810 PX*/
+
+@media screen and (min-width: 810px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.3em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 20px;
+        height: 300px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 17px;
+        margin-left: 200px !important;
+    }
+    .carousel {
+        margin-top: -25px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+        opacity: 100;
+    }
+    .anterior {
+        float: left;
+        margin-left: 225px;
+        line-height: 50px;
+    }
+    .proximo {
+        float: right;
+        margin-right: 200px;
+        line-height: 50px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*tablet 910 PX*/
+
+@media screen and (min-width: 910px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.3em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.3em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 5px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        padding: 55px !important;
+        margin-top: 20px;
+        height: 300px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 2px 4px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 245px !important;
+    }
+    .carousel {
+        margin-top: -25px;
+    }
+    img.materialboxed {
+        width: 220px;
+        height: 200px;
+        margin-top: -10px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+        opacity: 100;
+    }
+    .anterior {
+        float: left;
+        margin-left: 275px;
+        line-height: 50px;
+    }
+    .proximo {
+        float: right;
+        margin-right: 265px;
+        line-height: 50px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+}
+
+
+/*PC 1017*/
+
+@media screen and (min-width: 1017px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.4em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .especificacoes {
+        margin-top: 15px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 30px;
+        height: 290px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 200px !important;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    img.materialboxed {
+        width: 270px;
+        height: 250px;
+        margin-top: -30px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+    }
+    .anterior {
+        float: left;
+        margin-left: 250px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .proximo {
+        float: right;
+        margin-right: 240px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .collapsible-header {
+        cursor: default;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos:hover {
+        background: rgb(156, 156, 156);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/*PC 1100*/
+
+@media screen and (min-width: 1100px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.4em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 15px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        padding: 50px !important;
+        margin-top: 30px;
+        height: 290px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 230px !important;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    img.materialboxed {
+        width: 270px;
+        height: 250px;
+        margin-top: -30px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+    }
+    .anterior {
+        float: left;
+        margin-left: 270px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .proximo {
+        float: right;
+        margin-right: 260px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .collapsible-header {
+        cursor: default;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos:hover {
+        background: rgb(156, 156, 156);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/*PC 1240*/
+
+@media screen and (min-width: 1240px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.4em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 15px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        padding: 60px !important;
+        margin-top: 30px;
+        height: 280px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 280px !important;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    img.materialboxed {
+        width: 270px;
+        height: 250px;
+        margin-top: -30px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+    }
+    .anterior {
+        float: left;
+        margin-left: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .proximo {
+        float: right;
+        margin-right: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .collapsible-header {
+        cursor: default;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos:hover {
+        background: rgb(156, 156, 156);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/*PC 1340*/
+
+@media screen and (min-width: 1340px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.4em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 15px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        padding: 60px !important;
+        margin-top: 30px;
+        height: 260px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 320px !important;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    img.materialboxed {
+        width: 270px;
+        height: 250px;
+        margin-top: -30px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+    }
+    .anterior {
+        float: left;
+        margin-left: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .proximo {
+        float: right;
+        margin-right: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .collapsible-header {
+        cursor: default;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos:hover {
+        background: rgb(156, 156, 156);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/*PC 1440*/
+
+@media screen and (min-width: 1440px) {
+    h3 {
+        margin-top: 40px;
+        font-size: 2.4em;
+        color: rgb(255, 8, 0);
+    }
+    h5 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .especificacoes {
+        margin-top: 15px;
+    }
+    .caixafrase {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        padding: 60px !important;
+        margin-top: 30px;
+        height: 260px !important;
+        background-color: rgb(30, 131, 179);
+        border-color: rgb(0, 136, 255) !important;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.589);
+    }
+    .frasecarrosel {
+        font-size: 18px;
+        margin-left: 340px !important;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    img.materialboxed {
+        width: 270px;
+        height: 250px;
+        margin-top: -30px !important;
+    }
+    .butonsnextprev {
+        margin-top: -25px !important;
+    }
+    .anterior {
+        float: left;
+        margin-left: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .proximo {
+        float: right;
+        margin-right: 350px;
+        line-height: 50px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .collapsible-header {
+        cursor: default;
+    }
+    .menuprodutos {
+        font-size: 18px;
+    }
+    .menuprodutos:hover {
+        background: rgb(156, 156, 156);
+        color: white;
+        cursor: pointer;
+    }
+}
