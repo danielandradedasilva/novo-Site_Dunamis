@@ -14,6 +14,11 @@ h3 {
 
 .formulario {
     margin-top: 15px;
-    height: 500px;
+    height: auto;
     border: 1px solid red;
+    background: white;
+}
+
+.formulario .form{
+    margin: 20px;
 }

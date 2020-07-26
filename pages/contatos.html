@@ -59,7 +59,56 @@
                         </div>
 
                         <div class="col s12 m7 offset-m1 l6 offset-l1 formulario">
-                            formulario
+                            <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" class="form">
+                                <input type="hidden" name="recipient" value="dunamis_graf@hotmail.com">
+                                <!-- Pode ser qualquer endereço de email -->
+                                <input class="localHref" type="hidden" name="redirect" value="http://localhost:8080/pages/contatos.html">
+                                <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                                <input type="hidden" name="subject" value="assunto">
+                                <!-- Assunto da mensagem -->
+                                <input type="hidden" name="email" value="response@hotmail.com">
+                                <!-- Deve ser uma conta de email ativa em seu domínio -->
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="first_name2" type="text" class="validate name" size="30" name="nome" required maxlength="75">
+                                        <label class="active" for="first_name2">Nome:</label>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="first_name2" type="email" class="validate" size="30" name="replyto" required maxlength="75">
+                                        <label class="active" for="first_name2">E-mail:</label>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="first_name2" type="text" class="validate" size="30" name="assunto" required maxlength="75">
+                                        <label class="active" for="first_name2">Assunto:</label>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="icon_prefix2" class="materialize-textarea" size="35" name="Comentarios" required maxlength="400"></textarea>
+                                        <label for="icon_prefix2">Comentários</label>
+                                    </div>
+                                </div>
+    
+    
+    
+                                <div class="buttons">
+                                    <button class="btn waves-effect red" type="submit" name="BTEnvia" value="Enviar">Enviar    
+                                <i class="material-icons right">send</i>
+                                </button>
+                                    <button class="btn waves-effect red" type="reset" name="BTApaga" value="Apagar">
+                                    Apagar 
+                                </button>
+                                </div>
+                            </form>
+    
                         </div>
                     </div>
                 </section>
