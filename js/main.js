@@ -29,13 +29,19 @@
     //Função para mudar a cor da nav, de tranparente para azul
     $(document).ready(function() {
         $(window).scroll(function() {
-            if ($(window).scrollTop() > 10) {
-                $('.menu').addClass('grey lighten-1');
-            } else {
-                $('.menu').removeClass('grey lighten-1');
-            }
-
+            changeColor();
         })
+
+        //Quando carregar o site.
+        changeColor();
     });
+
+    function changeColor(){
+        if ($(window).scrollTop() > 10) {
+            $('.menu').addClass('grey lighten-1');
+        } else {
+            $('.menu').removeClass('grey lighten-1');
+        }
+    }
 
 })(window, document);
