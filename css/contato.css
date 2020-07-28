@@ -8,12 +8,33 @@ h3 {
 
 .cardmensagem {
     margin-top: 15px;
-    height: 200px;
+    height: auto;
     border: 1px solid red;
+    background-color:#37474f;
+    font-size: 14px;
+    
+    /* flex-box */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardmensagem span{
+    margin:20px;
+}
+
+.cardmensagem img{
+    margin-top: 20px;
+    width: 75px;
 }
 
 .formulario {
     margin-top: 15px;
-    height: 500px;
+    height: auto;
     border: 1px solid red;
+    background: white;
+}
+
+.formulario .form{
+    margin: 20px;
 }
